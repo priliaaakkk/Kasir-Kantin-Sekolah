@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    padding: 30px;
+    color: #4a1020;
+    background: linear-gradient(135deg, #fff0f3, #ffd6df);
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(135deg, #c9184a, #ff4d6d);
+    box-shadow: 0 8px 20px rgba(150, 20, 60, 0.2);
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.card {
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(120, 20, 50, 0.12);
+}
+
+h2 {
+    margin: 20px 0 15px;
+    color: #c9184a;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 5px 15px rgba(120, 20, 50, 0.1);
+}
+
+th {
+    padding: 15px;
+    color: white;
+    background: #c9184a;
+}
+
+td {
+    padding: 13px;
+    border-bottom: 1px solid #ffd1dc;
+    text-align: center;
+}
+
+tr:hover {
+    background: #fff0f3;
+}
+
+input[type="number"],
+input[type="text"] {
+    width: 100%;
+    max-width: 250px;
+    padding: 10px;
+    border: 2px solid #ffb3c1;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+input:focus {
+    border-color: #c9184a;
+    box-shadow: 0 0 5px rgba(201, 24, 74, 0.3);
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 13px 30px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    background: #c9184a;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #a4133c;
+    transform: scale(1.05);
+}
+
+#hasil {
+    padding: 15px;
+    border: 2px solid #ffb3c1;
+    border-radius: 12px;
+    color: #a4133c;
+    background: #fff0f3;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #6d1630;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    th,
+    td {
+        padding: 8px 5px;
+    }
+
+    input[type="number"] {
+        width: 70px;
+    }
+}

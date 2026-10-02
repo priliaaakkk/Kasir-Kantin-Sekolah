@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website kasir sederhana</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container"></div>
+    <header>
+    <h1>KASIR KANTIN SEKOLAH</h1>
+    <P>selamat datang di kantin sekolah</P>
+    </header>
+    <div class="card"></div>
+    <h2>
+        Daftar Menu
+    </h2>
+    <div class="Menu">
+        <div class="Menu Item"></div>
+    </div>
+   <table>
+    <tr>
+        <th>No</th>
+        <th>Menu</th>
+        <th>Harga</th>
+        <th>Jumlah</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Nasi Goreng</td>
+        <td>Rp15.000</td>
+        <td>
+            <input type="number" id="nasi" min="0" value="0">
+        </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>dimsum mentai</td>
+        <td>Rp12.000</td>
+        <td>
+            <input type="number" id="dimsum" min="0" value="0">
+        </td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>ayam geprek</td>
+        <td>Rp12.000</td>
+        <td>
+            <input type="number" id="ayam" min="0" value="0">
+        </td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>jus semangka</td>
+        <td>Rp10.000</td>
+        <td>
+            <input type="number" id="jus" min="0" value="0">
+        </td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>mie goreng</td>
+        <td>Rp8.000</td>
+        <td>
+        <input type="number" id="mie" min="0" value="0">
+        </td>
+    </tr>
+    <table><button onclick="hitungtotal()">Hitung Total</button>
+
+    <h2 id="hasil">Total: Rp0</h2>
+    </table>
+    <div class="card">
+            <h2>
+                Data Pelanggan
+            </h2>
+            <label>Nama Pelanggan</label>
+            <input type="text" id="nama" placeholder="Masukkan Nama">
+
+<script src="indexs.js"></script>
+</html>
